@@ -15,15 +15,13 @@
 
 &mt {
     quick-tap-ms = <200>;
-    global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <200>;
-    retro-tap;
+    require-prior-idle-ms = <125>;
 };
 
 &lt {
     quick-tap-ms = <200>;
-    retro-tap;
+    require-prior-idle-ms = <125>;
 };
 
 / {
