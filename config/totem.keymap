@@ -69,9 +69,9 @@
         sym_layer {
             label = "SYM";
             bindings = <
-        &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT        &kp CARET  &kp AMPS   &kp STAR   &trans    &kp DOUBLE_QUOTES
-        &kp EXCL  &kp LBRC  &kp LBKT  &kp LPAR  &kp PIPE         &kp MINUS  &kp UNDER  &kp EQUAL  &kp PLUS  &kp SINGLE_QUOTE
-&trans  &trans    &kp RBRC  &kp RBKT  &kp RPAR  &kp BACKSLASH    &trans     &kp TILDE  &trans     &kp EXCL  &kp GRAVE          &trans
+        &trans    &kp AT    &kp HASH  &kp DLLR  &kp PRCNT        &kp CARET  &kp AMPS   &kp STAR   &kp PLUS   &kp DOUBLE_QUOTES
+        &kp EXCL  &kp LBRC  &kp LBKT  &kp LPAR  &kp PIPE         &kp TILDE  &kp MINUS  &kp UNDER  &kp EQUAL  &kp SINGLE_QUOTE
+&trans  &trans    &kp RBRC  &kp RBKT  &kp RPAR  &kp BACKSLASH    &trans     &trans     &trans     &kp EXCL   &kp GRAVE          &trans
                             &trans    &trans    &trans           &trans     &trans     &trans
             >;
         };
