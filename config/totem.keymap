@@ -33,10 +33,24 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp ESC>;
+        cmd_a {
+            bindings = <&kp LG(A)>;
+            key-positions = <10 21>;
+        };
+
+        cmd_x {
+            bindings = <&kp LG(X)>;
+            key-positions = <11 22>;
+        };
+
+        cmd_c {
+            bindings = <&kp LG(C)>;
+            key-positions = <12 23>;
+        };
+
+        cmd_v {
+            bindings = <&kp LG(V)>;
+            key-positions = <13 24>;
         };
     };
 
@@ -78,7 +92,7 @@
             bindings = <
         &kp Q         &kp W       &kp E                  &kp R             &kp T                &kp Y      &kp U            &kp I        &kp O       &kp P
         &mt LSHIFT A  &mt LALT S  &mt LCTRL D            &mt LGUI F        &kp G                &kp H      &mt RGUI J       &mt RCTRL K  &mt RALT L  &mt RSHIFT SEMI
-&trans  &kp Z         &kp X       &copy                  &paste            &kp B                &kp N      &kp M            &kp COMMA    &kp DOT     &kp FSLH         &mo 3
+&trans  &kp Z         &kp X       &kp C                  &kp V             &kp B                &kp N      &kp M            &kp COMMA    &kp DOT     &kp FSLH         &mo 3
                                   &mt_hp LEFT_SHIFT ESC  &mt_hp LCTRL TAB  &mt_hp LGUI SPACE    &kp ENTER  &lt 1 BACKSPACE  &lt 2 DEL
             >;
         };
