@@ -25,7 +25,6 @@
     require-prior-idle-ms = <100>;
     tapping-term-ms = <200>;
     flavor = "hold-preferred";
-    retro-tap;
 };
 
 / {
@@ -54,24 +53,6 @@
     };
 
     behaviors {
-        copy: copy {
-            compatible = "zmk,behavior-tap-dance";
-            label = "COPY";
-            #binding-cells = <0>;
-            bindings = <&kp C>, <&kp LG(C)>;
-
-            tapping-term-ms = <100>;
-        };
-
-        paste: paste {
-            compatible = "zmk,behavior-tap-dance";
-            label = "PASTE";
-            #binding-cells = <0>;
-            bindings = <&kp V>, <&kp LG(V)>;
-
-            tapping-term-ms = <100>;
-        };
-
         mt_hp: mt_hp {
             compatible = "zmk,behavior-hold-tap";
             label = "MT_HP";
