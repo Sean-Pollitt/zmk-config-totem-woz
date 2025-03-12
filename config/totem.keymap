@@ -72,29 +72,29 @@
         base_layer {
             label = "BASE";
             bindings = <
-                &kp Q         &kp W       &kp E                     &kp R       &kp T        &kp Y          &kp U        &kp I        &kp O       &kp P
-                &mt LSHIFT A  &mt LALT S  &mt LCTRL D               &mt LGUI F  &kp G        &kp H          &mt RGUI J   &mt RCTRL K  &mt RALT L  &mt RSHIFT SEMI
-&kp LEFT_SHIFT  &kp Z         &kp X       &kp C                     &kp V       &kp B        &kp N          &kp M        &kp COMMA    &kp DOT     &kp FSLH         &mo 3
-                                          &mt_hp LEFT_SHIFT ESCAPE  &lt 3 TAB   &kp ENTER    &kp BACKSPACE  &lt 1 SPACE  &lt 2 DEL
+                  &kp Q         &kp W       &kp E                     &kp R       &kp T        &kp Y          &kp U        &kp I        &kp O       &kp P
+                  &mt LSHIFT A  &mt LALT S  &mt LCTRL D               &mt LGUI F  &kp G        &kp H          &mt RGUI J   &mt RCTRL K  &mt RALT L  &mt RSHIFT SEMI
+&lt 3 LEFT_SHIFT  &kp Z         &kp X       &kp C                     &kp V       &kp B        &kp N          &kp M        &kp COMMA    &kp DOT     &kp FSLH         &mo 3
+                                            &mt_hp LEFT_SHIFT ESCAPE  &lt 2 TAB   &kp ENTER    &kp BACKSPACE  &lt 1 SPACE  &lt 2 DEL
             >;
         };
 
         sym_layer {
             label = "SYM";
             bindings = <
-        &trans    &kp AT    &kp HASH  &kp DLLR  &kp PRCNT        &kp CARET  &kp AMPS   &kp STAR   &kp PLUS   &kp DOUBLE_QUOTES
-        &kp EXCL  &kp LBRC  &kp LBKT  &kp LPAR  &kp PIPE         &kp TILDE  &kp MINUS  &kp UNDER  &kp EQUAL  &kp SINGLE_QUOTE
-&trans  &trans    &kp RBRC  &kp RBKT  &kp RPAR  &kp BACKSLASH    &kp COLON  &trans     &trans     &kp EXCL   &kp GRAVE          &trans
-                            &trans    &trans    &trans           &trans     &trans     &trans
+        &kp GRAVE  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT        &kp CARET  &kp AMPS   &kp STAR   &kp PLUS   &kp DOUBLE_QUOTES
+        &kp EXCL   &kp LBRC  &kp LBKT  &kp LPAR  &kp PIPE         &kp TILDE  &kp MINUS  &kp UNDER  &kp EQUAL  &kp SINGLE_QUOTE
+&trans  &trans     &kp RBRC  &kp RBKT  &kp RPAR  &kp BACKSLASH    &kp COLON  &trans     &trans     &kp EXCL   &kp GRAVE          &trans
+                             &trans    &trans    &trans           &trans     &trans     &trans
             >;
         };
 
         nav_layer {
             bindings = <
-        &trans  &kp N7  &kp N8  &kp N9  &trans    &trans    &kp PAGE_DOWN  &kp UP_ARROW   &trans     &trans
-        &kp N0  &kp N4  &kp N5  &kp N6  &trans    &kp LEFT  &kp DOWN       &kp UP_ARROW   &kp RIGHT  &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans    &kp END        &kp PAGE_DOWN  &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans         &trans
+        &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4      &kp N5    &kp NUMBER_6  &kp N7    &kp N8        &kp N9     &kp N9
+        &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &trans    &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans          &trans        &trans            &trans            &trans    &trans        &trans    &trans        &trans     &trans  &trans
+                                      &trans            &trans            &trans    &trans        &trans    &trans
             >;
         };
 
